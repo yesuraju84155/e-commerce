@@ -11,7 +11,7 @@ import paymentRoutes from "./routes/payment.route.js";
 import analyticsRoutes from "./routes/analytics.route.js";
 
 import { connectDB } from "./lib/db.js";
-import job from "./cron/cron.js";
+//import job from "./cron/cron.js";
 
 dotenv.config();
 //job.start();
