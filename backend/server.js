@@ -14,7 +14,7 @@ import { connectDB } from "./lib/db.js";
 import job from "./cron/cron.js";
 
 dotenv.config();
-job.start();
+//job.start();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
